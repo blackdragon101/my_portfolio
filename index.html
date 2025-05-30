@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BlackDragon101 | Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>BlackDragon101</h1>
+      <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggle-theme">🌙</button></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <img src="avatar.png" alt="Your Avatar" class="avatar"/>
+      <h2>Hello, I'm a Developer & Computer Engineer</h2>
+      <p>
+        Skilled in Python, Java, C++, C#, MySQL, and Web Development.<br>
+        Passionate about building interactive and impactful applications.
+      </p>
+    </section>
+  </header>
+
+  <main>
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <span>Python</span>
+          <div class="skill-bar" data-skill="90"></div>
+        </div>
+        <div class="skill">
+          <span>Java</span>
+          <div class="skill-bar" data-skill="85"></div>
+        </div>
+        <div class="skill">
+          <span>C++</span>
+          <div class="skill-bar" data-skill="80"></div>
+        </div>
+        <div class="skill">
+          <span>C#</span>
+          <div class="skill-bar" data-skill="75"></div>
+        </div>
+        <div class="skill">
+          <span>MySQL</span>
+          <div class="skill-bar" data-skill="70"></div>
+        </div>
+        <div class="skill">
+          <span>HTML/CSS/JavaScript</span>
+          <div class="skill-bar" data-skill="85"></div>
+        </div>
+        <div class="skill">
+          <span>OOP (Python & Java)</span>
+          <div class="skill-bar" data-skill="90"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Amazing Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>YouCode</h3>
+          <p>Python-based project.</p>
+          <a href="https://github.com/blackdragon101/YouCode" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Tic-Tac-Toe Game</h3>
+          <p>Python-based classic game.</p>
+          <a href="https://github.com/blackdragon101/Tic-Tac-Toe-Game" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Pacman Game</h3>
+          <p>Java-based Pacman game.</p>
+          <a href="https://github.com/blackdragon101/Pacman-Game" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Student Course Registration System</h3>
+          <p>C# application to manage student registrations.</p>
+          <a href="https://github.com/blackdragon101/Student-Course-Registration-system" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Youtube Clone</h3>
+          <p>HTML/CSS-based YouTube UI clone.</p>
+          <a href="https://github.com/blackdragon101/Youtube-clone" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume-section">
+      <h2>Resume</h2>
+      <a href="resume.pdf" download class="download-resume-btn">Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 BlackDragon101. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
